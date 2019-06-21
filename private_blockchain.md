@@ -48,12 +48,14 @@ Here you can allocate ETH to specific addresses. This won't create the account f
 * Instantiate genesis block
 
 `geth --datadir ./myDataDir init ./genesis.json`
+
 `geth --datadir . init ./genesis.json`
 
 ## Step 4
 * Start the Ethereum node
 
 `geth --datadir ./myDataDir --networkid 1114 console`
+
 `geth --datadir . --networkid 1111 console`
 
 ## Step 5 (working with geth console)
