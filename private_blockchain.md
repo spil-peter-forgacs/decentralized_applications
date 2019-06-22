@@ -1,6 +1,8 @@
 # Private Blockchain setup with geth via cli
 
-This is a simple recreation of documentation of https://www.theschool.ai/courses/decentralized-application/lessons/private-blockchain-setup-screencast/
+This is a simple recreation of documentation of https://www.theschool.ai/courses/decentralized-application/lessons/private-blockchain-setup-screencast/ to help the fellow students, as this document is missing from the course.
+
+All rights belongs to The School of AI: https://www.theschool.ai/
 
 ## Step 1
 * install geth
@@ -78,3 +80,7 @@ Here you can allocate ETH to specific addresses. This won't create the account f
 * Stop mining
 
 `miner.stop()`
+
+* Exit
+
+`exit`
